@@ -7,6 +7,13 @@
             <ReadOnly>false</ReadOnly>
         </MappedFolder>
 
+        <!-- Downloads -->
+        <MappedFolder>
+            <HostFolder>.\Data\Downloads</HostFolder>
+            <SandboxFolder>C:\Users\WDAGUtilityAccount\Downloads</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+
 
         <!-- App -->
         <MappedFolder>
@@ -44,6 +51,11 @@
             <SandboxFolder>C:\Program Files\TencentDocs</SandboxFolder>
             <ReadOnly>false</ReadOnly>
         </MappedFolder>
+        <MappedFolder>
+            <HostFolder>.\App\WeiyunApp</HostFolder>
+            <SandboxFolder>C:\Users\WDAGUtilityAccount\AppData\Local\Programs\WeiyunApp</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
 
 
         <!-- Roaming -->
@@ -55,6 +67,11 @@
         <MappedFolder>
             <HostFolder>.\Data\Roaming\TencentDocs</HostFolder>
             <SandboxFolder>C:\Users\WDAGUtilityAccount\AppData\Roaming\TDAppDesktop</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+        <MappedFolder>
+            <HostFolder>.\Data\Roaming\WeiyunApp</HostFolder>
+            <SandboxFolder>C:\Users\WDAGUtilityAccount\AppData\Roaming\WeiyunApp</SandboxFolder>
             <ReadOnly>false</ReadOnly>
         </MappedFolder>
 
