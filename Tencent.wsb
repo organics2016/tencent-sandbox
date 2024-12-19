@@ -120,14 +120,14 @@
         <!-- 脚本 -->
         <MappedFolder>
             <HostFolder>.\Scripts</HostFolder>
-            <SandboxFolder>C:\Scripts</SandboxFolder> 
-            <ReadOnly>true</ReadOnly> 
+            <SandboxFolder>C:\Scripts</SandboxFolder>
+            <ReadOnly>true</ReadOnly>
         </MappedFolder>
         <!-- SysWOW64 -->
-        <MappedFolder> 
-          <HostFolder>C:\Windows\SysWOW64</HostFolder> 
-          <SandboxFolder>C:\Windows\SysWOW64</SandboxFolder> 
-          <ReadOnly>true</ReadOnly> 
+        <MappedFolder>
+            <HostFolder>C:\Windows\SysWOW64</HostFolder>
+            <SandboxFolder>C:\Windows\SysWOW64</SandboxFolder>
+            <ReadOnly>true</ReadOnly>
         </MappedFolder>
     </MappedFolders>
     <!-- 音频 -->
@@ -136,10 +136,10 @@
     <VideoInput>Disable</VideoInput>
     <!-- 内存限制 -->
     <MemoryInMB>8192</MemoryInMB>
+    <!-- vGpu -->
+    <vGPU>Enable</vGPU>
     <!-- 开机运行脚本 -->
     <LogonCommand>
         <Command>C:\Scripts\sandbox-setup.cmd</Command>
     </LogonCommand>
-    <!-- vGpu -->
-    <vGPU>Enable</vGPU>
 </Configuration>

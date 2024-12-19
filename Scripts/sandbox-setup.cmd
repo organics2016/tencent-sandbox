@@ -1,3 +1,3 @@
-powershell.exe -executionpolicy bypass -file C:\Scripts\addzh-cn.ps1
+powershell.exe -Command "Set-DnsClientServerAddress -InterfaceAlias '以太网' -ServerAddresses '192.168.0.1'"
 
-C:\Program Files (x86)\Common Files\Tencent\QQProtect\Bin\QQProtect.exe
+powershell.exe -executionpolicy bypass -file C:\Scripts\addzh-cn.ps1
