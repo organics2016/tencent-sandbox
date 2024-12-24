@@ -56,6 +56,11 @@
             <SandboxFolder>C:\Users\WDAGUtilityAccount\AppData\Local\Programs\WeiyunApp</SandboxFolder>
             <ReadOnly>false</ReadOnly>
         </MappedFolder>
+        <MappedFolder>
+            <HostFolder>.\App\duowan</HostFolder>
+            <SandboxFolder>C:\Program Files (x86)\duowan</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
 
 
         <!-- Roaming -->
@@ -72,6 +77,16 @@
         <MappedFolder>
             <HostFolder>.\Data\Roaming\WeiyunApp</HostFolder>
             <SandboxFolder>C:\Users\WDAGUtilityAccount\AppData\Roaming\WeiyunApp</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+        <MappedFolder>
+            <HostFolder>.\Data\Roaming\duowan</HostFolder>
+            <SandboxFolder>C:\Users\WDAGUtilityAccount\AppData\Roaming\duowan</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
+        <MappedFolder>
+            <HostFolder>.\Data\Roaming\yylive</HostFolder>
+            <SandboxFolder>C:\Users\WDAGUtilityAccount\AppData\Roaming\yylive</SandboxFolder>
             <ReadOnly>false</ReadOnly>
         </MappedFolder>
 
