@@ -61,6 +61,11 @@
             <SandboxFolder>C:\Program Files (x86)\duowan</SandboxFolder>
             <ReadOnly>false</ReadOnly>
         </MappedFolder>
+        <MappedFolder>
+            <HostFolder>.\App\BaiduNetdisk</HostFolder>
+            <SandboxFolder>C:\Users\WDAGUtilityAccount\AppData\Roaming\baidu\BaiduNetdisk</SandboxFolder>
+            <ReadOnly>false</ReadOnly>
+        </MappedFolder>
 
 
         <!-- Roaming -->
